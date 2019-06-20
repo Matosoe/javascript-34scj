@@ -99,7 +99,7 @@
           <h3 class="pb-3 mb-4 font-italic border-bottom">
             From the Firehose
           </h3>
-
+          <div id="demo"></div>
           <div class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
             <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
@@ -229,20 +229,7 @@
 
       //console.log("alguma coisa");
     </script>
-
-    <script>
-      
-      function reqListener(){
-        this.responseText
-        //console.log(this.responseText)
-      }
-      
-      
-      var oReq = new XMLHttpRequest();
-      oReq.onload = reqListener;
-      oReq.open("get", "https://5d04064fd1471e00149bb174.mockapi.io/api/v1/blogs", true);
-      oReq.send();
-    </script>
-    </body>
+    <script src="assets/js/src/scripts.js"></script>
+</body>
   </body>
 </html>
